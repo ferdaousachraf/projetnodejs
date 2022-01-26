@@ -1,0 +1,116 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Opinions API URLs",
+    "dateExported": "2022-01-25T20:14:59.759Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "a3bd6400-9ca7-4731-b429-419993209893",
+            "name": "Get a opinion",
+            "url": "http://localhost:8080/conferences-app/api/v1/opinions/oXWDKSHSsHc1dQhAjcIF",
+            "method": "GET",
+            "modified": "2022-01-25T01:58:04.680Z",
+            "created": "2022-01-25T01:28:56.494Z",
+            "_id": "ee538996-47aa-4f34-8a5c-652460471a4c",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"opinionId\" : \"oXWDKSHSsHc1dQhAjcIF\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 15000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "a3bd6400-9ca7-4731-b429-419993209893",
+            "name": "Delete a opinion",
+            "url": "http://localhost:8080/conferences-app/api/v1/opinions/oXWDKSHSsHc1dQhAjcIF",
+            "method": "DELETE",
+            "modified": "2022-01-25T01:57:52.023Z",
+            "created": "2022-01-25T01:57:52.023Z",
+            "_id": "74882a7a-b2e7-4d59-be08-9d7e148a8522",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"opinionId\" : \"oXWDKSHSsHc1dQhAjcIF\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "a3bd6400-9ca7-4731-b429-419993209893",
+            "name": "Add a opinion",
+            "url": "http://localhost:8080/conferences-app/api/v1/opinions",
+            "method": "POST",
+            "modified": "2022-01-25T01:51:57.680Z",
+            "created": "2022-01-25T01:21:44.410Z",
+            "_id": "d0ae207f-9123-4dad-9555-5dd5c2510e45",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"firstname\": \"opinion 1\",\n        \"lastname\": \"opinion 1\",\n        \"cardid\":\"opinion 1\",\n        \"address\": \"opinion 1\",\n        \"email\": \"opinion1@test.com\",\n        \"phone\": \"0658963214\",\n        \"profession\": \"opinion 1\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "a3bd6400-9ca7-4731-b429-419993209893",
+            "name": "Get All opinions",
+            "url": "http://localhost:8080/conferences-app/api/v1/opinions",
+            "method": "GET",
+            "modified": "2022-01-25T01:52:38.280Z",
+            "created": "2022-01-25T01:09:19.141Z",
+            "_id": "4b9e1267-9fde-4bbf-80e9-a31fae081d49",
+            "params": [],
+            "tests": []
+        }
+    ]
+}
