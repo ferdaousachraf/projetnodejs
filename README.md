@@ -13,7 +13,7 @@ https://acharf-conferences-api.herokuapp.com/conferences-app/api/v1/conferences
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/0000000000000
+git clone https://github.com/ferdaousachraf/projetnodejs.git
 ```
 ```bash
 npm run install
