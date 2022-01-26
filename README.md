@@ -7,6 +7,9 @@ Build Restful CRUD API for Conferences ( as Example ) using Node JS - Express an
 ## Steps to Setup
 
 **0. You can test our API  via this link :
+Every URL need to have authentication token, except for Register and Login.
+You get the token after you Login or register.
+You have to add the token to your body of your next requests .
 
 https://acharf-conferences-api.herokuapp.com/conferences-app/api/v1/conferences
 
