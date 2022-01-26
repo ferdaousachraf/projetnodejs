@@ -469,7 +469,7 @@ Provide the token that you will get after your Login
         "token": ""
 }
 ```
-##### <a id="speakers">add a opinion - -> /conferences-app/api/v1/speakers</a>
+##### <a id="speakers">add a speakers - -> /conferences-app/api/v1/speakers</a>
 
 
 Provide the token that you will get after your Login
