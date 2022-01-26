@@ -11,6 +11,9 @@ Every URL need to have authentication token, except for Register and Login.
 You get the token after you Login or register.
 You have to add the token to your body of your next requests .
 
+Use Postman or VS Code Thunder Client to test the API
+You can import VS Code Thunder Client Requestes from the folder : Thunder VS Code API Calls in the project
+
 https://acharf-conferences-api.herokuapp.com/conferences-app/api/v1/conferences
 
 **1. Clone the application**
